@@ -1,0 +1,12 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 60px;
+  font-size: 14px;
+  background: #fff;
+}
+
+.topbar-right span {
+  margin-left: 20px;
+  color: #333;
+}

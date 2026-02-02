@@ -1,0 +1,138 @@
+.services {
+  padding: 100px 80px;
+  background: #fff;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 40px;
+  color: #6a1b9a;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  background: #fff5f9;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  color: #ec407a;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 26px;
+  font-weight: bold;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.service-card ul li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.book-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background: linear-gradient(90deg, #ec407a, #6a1b9a);
+  color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(236, 64, 122, 0.4);
+}
+
+.book-btn:active {
+  transform: scale(0.96);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.modal h3 {
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+.modal-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ec407a;
+  margin-bottom: 20px;
+}
+
+.modal input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.confirm-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #ec407a, #6a1b9a);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+}
+

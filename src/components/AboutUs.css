@@ -1,0 +1,100 @@
+.about {
+  background: #fff5f9;
+  padding: 100px 80px;
+}
+
+.about-container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 50%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  color: #ec407a;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.about-content h3 {
+  font-size: 40px;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.about-content button {
+  margin-top: 20px;
+  padding: 14px 30px;
+  background: #ec407a;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.hair{
+    position: relative;
+    left: 130px;
+}
+.brid{
+    position: relative;
+    right: 50px;
+    top: 80px;
+}
+.abt{
+    position: relative;
+    top: 70px;
+}
+
+
+.about-stats {
+  margin-top: 60px;
+  background: linear-gradient(90deg, #ec407a, #6a1b9a);
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.stat {
+  text-align: center;
+  color: white;
+  flex: 1;
+}
+
+.stat h4 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.stat p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.stat-icon{
+    position: relative;
+    top: 50px;
+    width: 400px;
+}

@@ -1,0 +1,95 @@
+.contact-section {
+  width: 100%;
+  min-height: 100vh;
+  background: url("https://th.bing.com/th/id/R.85582159a036cda4e44effdd6be77f38?rik=BHKzFMPaZsnXog&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fuoyx3kz.jpg&ehk=Copyu0HXaF9me2zoLNgvcwZcmyljZhWSEoCzGI9Z7lQ%3d&risl=&pid=ImgRaw&r=0")
+    center / cover no-repeat;
+}
+
+.contact-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.contact-form-box {
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+}
+
+.contact-form-box h2 {
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.contact-form-box textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-form-box button {
+  width: 100%;
+  padding: 12px;
+  background: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-info-box {
+  color: #ffffff;
+  padding: 30px;
+}
+
+.contact-info-box h2 {
+  color: #ffccff;        
+  margin-bottom: 30px;
+  font-size: 36px;         
+  font-weight: 700;
+}
+
+.contact-info-box p {
+  margin-bottom: 26px;
+  line-height: 1.9;
+  font-size: 18px;          
+  font-weight: 500;
+}
+
+.contact-info-box strong {
+  color: #f3b6ff;           
+  font-size: 19px;
+}
+
+
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  .contact-info-box {
+    text-align: center;
+  }
+}
